@@ -3,12 +3,15 @@
       <p>
           Calculator
       </p>
+      <Calculator />
   </div>
 </template>
 
 <script>
-export default {
+import Calculator from './main/Calculator.vue'
 
+export default {
+  components: {Calculator}
 }
 </script>
 
